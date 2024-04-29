@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """Defines the User class."""
-from models.base_model import Base
-from models.base_model import BaseModel
-from sqlalchemy import Column
-from sqlalchemy import String
+from models.base_model import BaseModel, Base
+from sqlalchemy import Column, String
+
 
 class User(BaseModel, Base):
     """Represents a user for a MySQL database.
