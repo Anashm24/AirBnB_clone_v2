@@ -3,6 +3,7 @@
 from models.base_model import BaseModel, Base
 from sqlalchemy import Column, String, ForeignKey
 
+
 class City(BaseModel, Base):
     """Represents a city for a MySQL database.
     Inherits from SQLAlchemy Base and links to the MySQL table cities.
